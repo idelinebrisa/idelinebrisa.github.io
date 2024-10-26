@@ -159,7 +159,7 @@ export const education = [
     },
     {
         title: "Student Exchange Program",
-        duration: "May 2023",
+        duration: "January - May 2023",
         subtitle: "Wichita State University, Kansas, USA",
         details: [
             "Specialized in aerodynamics and propulsion in an aerospace engineering environment.",
