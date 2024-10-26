@@ -102,7 +102,7 @@ export const experience = [
     {
         title: "MI-GSO-PCUBED / Airbus",
         subtitle: "Project Management Officer (PMO) Assistant",
-        duration: "September 2024 - Present",
+        duration: "March 2024 - Present",
         details: [
             "Supported the deployment of governance frameworks with stakeholders to reduce qualification times for aircraft components.",
             "Developed tools to track project qualifications, enhancing cross-functional collaboration.",
