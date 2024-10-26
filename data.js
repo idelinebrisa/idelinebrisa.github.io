@@ -1,4 +1,4 @@
-export const githubUsername = "i2line";
+export const githubUsername = "idelinebrisa";
 
 export const Name = "Ideline";
 export const LastName = "Brisa";
@@ -233,7 +233,7 @@ export const footer = [
         data: [
             {
                 text: "GitHub",
-                link: "https://github.com/i2line",
+                link: "https://github.com/idelinebrisa",
             },
         ],
     },
