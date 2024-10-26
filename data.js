@@ -241,7 +241,7 @@ export const footer = [
         label: "Resources",
         data: [
             {
-                text: "send me a mail",
+                text: "Send me a mail",
                 link: "mailto:ideline.brisa@hotmail.fr",
             },
             {
