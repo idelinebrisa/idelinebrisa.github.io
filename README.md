@@ -1,1 +1,1 @@
-iDULINES PAGE:https://idelinebrisa.github.io/
+Ideline Page:https://idelinebrisa.github.io/
