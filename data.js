@@ -256,7 +256,7 @@ export const footer = [
         data: [
             {
                 text: "LinkedIn",
-                link: "https://www.linkedin.com/in/IdelineBrisa/",
+                link: "https://www.linkedin.com/in/ideline-brisa/",
             },
         ],
     },
