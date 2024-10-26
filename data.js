@@ -12,7 +12,7 @@ export const metaKeywords = "Ideline Brisa, aerospace engineer, portfolio, proje
 export const metaAuthor = "Ideline Brisa";
 
 // Contact information
-export const contactInfo = `I'm just an email or a message away. Send me an email at ${mail}, or find me on LinkedIn or Instagram. Let’s connect to discuss aerospace innovations or project management!`;
+export const contactInfo = `Send me an email at ${mail}, or find me on LinkedIn. Let’s connect to discuss aerospace innovations or project management!`;
 
 export const bio = [
     "Meet Ideline Brisa: Aerospace Engineer, PMO Assistant, and Enthusiast for Innovation in Aerospace Technologies.",
@@ -257,10 +257,6 @@ export const footer = [
             {
                 text: "LinkedIn",
                 link: "https://www.linkedin.com/in/IdelineBrisa/",
-            },
-            {
-                text: "Instagram",
-                link: "https://www.instagram.com/Ideline_Brisa/",
             },
         ],
     },
