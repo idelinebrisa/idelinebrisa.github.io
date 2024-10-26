@@ -1,6 +1,6 @@
 export const githubUsername = "IdelineBrisa";
 
-export const Name = "Idelineeeeeeeeeeee";
+export const Name = "Ideline";
 export const LastName = "Brisa";
 export const FullName = `${Name} ${LastName}`;
 export const mail = "ideline.brisa@hotmail.fr";
