@@ -16,7 +16,7 @@ export const contactInfo = `I'm just an email or a message away. Send me an emai
 
 export const bio = [
     "Meet Ideline Brisa: Aerospace Engineer, PMO Assistant, and Enthusiast for Innovation in Aerospace Technologies.",
-    `As a recent graduate in Aerospace Engineering from Polytech Orléans and a former PMO Assistant at Airbus, I bring a strong foundation in aerospace engineering and hands-on experience in project management.`,
+    `As a recent graduate in Aerospace Engineering from Polytech Orléans and as a PMO Assistant at Airbus, I bring a strong foundation in aerospace engineering and hands-on experience in project management.`,
     `I am skilled in fluid dynamics, structure mechanics, aerodynamics, and project management, having led projects that range from mini-rocket prototyping to CFD visualization and analysis.`,
     `My passion for aerospace is driven by a commitment to continuous learning and a desire to contribute to advancements in the field.`,
     "Thank you for exploring my academic and professional journey in the dynamic world of aerospace engineering!",
