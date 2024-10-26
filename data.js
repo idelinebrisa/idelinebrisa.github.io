@@ -1,4 +1,4 @@
-export const githubUsername = "IdelineBrisa";
+export const githubUsername = "i2line";
 
 export const Name = "Ideline";
 export const LastName = "Brisa";
