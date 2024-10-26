@@ -246,7 +246,7 @@ export const footer = [
             },
             {
                 text: "Download Resume",
-                link: "https://IdelineBrisagh.github.io/IdelineBrisa.github.io/assets/Ideline_Weiss_Resume.pdf",
+                link: "https://IdelineBrisagh.github.io/IdelineBrisa.github.io/assets/CV_2410_English_Management_grad.pdf",
                 target: "_blank"
             }
         ],
