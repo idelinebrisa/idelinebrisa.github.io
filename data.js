@@ -233,7 +233,7 @@ export const footer = [
         data: [
             {
                 text: "GitHub",
-                link: "https://github.com/IdelineBrisa",
+                link: "https://github.com/i2line",
             },
         ],
     },
