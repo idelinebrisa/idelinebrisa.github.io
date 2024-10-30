@@ -40,58 +40,66 @@ export const languages = [
 export const skills = {
     "Aerospace Simulation and Analysis Tools": [
         {
-            skillName: "Ansys Fluent",
-            imagePath: "images/skills/ansys_fluent_logo.png",
-            description: "A computational fluid dynamics (CFD) tool for simulating fluid flow, heat transfer, and related phenomena."
+            skillName: "Ansys Workbench, Fluent, Mechanics",
+            imagePath: "images/skills/ansys_logo.png",
+            description: "Experienced in Ansys Workbench, Fluent, and Mechanical for advanced Computational Fluid Dynamics (CFD) simulations, including fluid flow, heat transfer, and turbulence modeling. Proficient in applying mechanical analysis techniques for structural integrity assessment, optimization, and performance evaluation of aerospace and mechanical components."
         },
         {
-            skillName: "Abaqus (FEA)",
+            skillName: "Catia V5",
+            imagePath: "images/skills/catia_logo.png",
+            description: "Proficient in CATIA V5, a powerful CAD software for 3D design, engineering, and manufacturing, widely used in aerospace and automotive industries."
+        },
+        {
+            skillName: "Creo Parametric",
+            imagePath: "images/skills/creo_logo.png",
+            description: "Experienced in Creo Parametric, a CAD software that enables robust 3D modeling, engineering design, and product development, particularly for complex mechanical parts."
+        },
+        {
+            skillName: "Abaqus",
             imagePath: "images/skills/abaqus_logo.png",
-            description: "A finite element analysis (FEA) software used for structural analysis in engineering."
+            description: "Skilled in Abaqus for finite element analysis (FEA) to conduct structural, thermal, and dynamic simulations for engineering applications."
         },
         {
             skillName: "MATLAB",
             imagePath: "images/skills/matlab_logo.png",
-            description: "A tool for numerical computing, simulations, and model-based design applications."
+            description: "Proficient in MATLAB for numerical computing, data visualization, simulations, and algorithm development, applied in various engineering and scientific research contexts."
+        },
+        {
+            skillName: "C / C++",
+            imagePath: "images/skills/cpp_logo.png",
+            description: "Experienced in C / C++ for developing high-performance software, object-oriented programming, and system-level applications, particularly for simulations and aerospace systems."
         }
     ],
     "Project Management Tools": [
         {
-            skillName: "Microsoft Project",
-            imagePath: "images/skills/microsoft_project_logo.png",
-            description: "A software product designed to assist project managers in developing plans, assigning resources to tasks, and tracking progress."
-        },
-        {
             skillName: "Planisware",
             imagePath: "images/skills/planisware_logo.png",
-            description: "A project portfolio management software used for resource planning and project tracking."
-        }
-    ],
-    "Engineering Design Software": [
-        {
-            skillName: "CATIA",
-            imagePath: "images/skills/catia_logo.png",
-            description: "A multi-platform CAD software suite for design and engineering applications in aerospace."
+            description: "Proficient in Planisware for project portfolio management, resource planning, and project tracking, particularly suited to engineering and R&D projects."
         },
         {
-            skillName: "Creo",
-            imagePath: "images/skills/creo_logo.png",
-            description: "A 3D CAD software used in engineering design and development, especially for mechanical parts."
-        }
+            skillName: "AD Software",
+            imagePath: "images/skills/ADSoftware_logo.png",
+            description: "Experienced in AD Software for developing project plans, allocating resources, and tracking progress throughout project lifecycles."
+        },
     ],
     "General Productivity Software": [
         {
-            skillName: "Microsoft Office / Google Suite",
-            imagePath: "images/skills/office_google_logo.png",
-            description: "Proficient in tools like Excel, Word, and PowerPoint for document creation, data analysis, and presentation."
+            skillName: "Microsoft Office",
+            imagePath: "images/skills/office_logo.png",
+            description: "Proficient in Excel, Word, and PowerPoint for document creation, data analysis, and presentations."
+        },
+        {
+            skillName: "Google Workspace",
+            imagePath: "images/skills/google_logo.png",
+            description: "Skilled in Docs, Sheets, Slides, LookerStudio, etc. for collaborative document creation, data analysis, and presentations."
         }
     ]
 };
 
 export const certifications = {
-    technicalCertifications: [
+    Certifications: [
         {
-            certificationName: "Driver's License",
+            certificationName: "",
             image: "images/Certifications/Driver_License_Certificate.jpg",
             preview: "http://127.0.0.1:5500/images/Certifications/Driver_License_Certificate.jpg"
         }
@@ -100,39 +108,62 @@ export const certifications = {
 
 export const experience = [
     {
-        title: "MI-GSO-PCUBED / Airbus",
-        subtitle: "Project Management Officer (PMO) Assistant",
+        title: "Mi-GSO | PCUBED / Airbus",
+        subtitle: "Internship as a Project Management Officer (PMO) Assistant",
         duration: "March 2024 - Present",
+        localization: "Toulouse, France", 
+        picture1: "images/mi-gso_logo.png",
+        picture2: "images/airbus_logo.png",
         details: [
-            "Supported the deployment of governance frameworks with stakeholders to reduce qualification times for aircraft components.",
-            "Developed tools to track project qualifications, enhancing cross-functional collaboration.",
-            "Conducted risk analysis, scheduling, and reporting to streamline project processes."
+            "• Deployment of governance frameworks with stakeholders to reduce qualification times for aircraft components.",
+            "• Developed tools to facilitate the follow-up of qualification projects and a way of working to enhance cross-functional collaboration.",
+            "• Conducted risk analysis, scheduling, and reporting to streamline project processes."
         ],
-        tags: ["Project Management", "Aerospace Engineering", "Process Optimization", "Stakeholder Collaboration"],
+        tags: [
+            "Project Management", 
+            "Aerospace Engineering", 
+            "Process Optimization", 
+            "Stakeholder Collaboration"
+        ],
         icon: "briefcase",
     },
     {
         title: "National Institute for Aviation Research (NIAR)",
-        subtitle: "Engineering Assistant - Advanced Virtual Engineering & Testing Group",
+        subtitle: "Academic Training as an engineer assistant within the CFD Advanced Virtual Engineering & Testing (AVET) group",
         duration: "May 2023 - August 2023",
+        localization: "Wichita, KS, USA", 
+        picture: "images/niar_logo.png",
         details: [
-            "Conducted CFD studies on airfoil and drone designs, focusing on numerical analysis and technical documentation.",
-            "Created CFD grids and contributed to numerical analysis using MATLAB and other tools.",
-            "Prepared reports and documented findings to support engineering testing and analysis."
+            "Conducted 3D studies on infinite airfoil and drone designs:",
+            "• Worked on technical documentation.",
+            "• Created Computational Fluid Dynamics (CFD) grids and contributed to numerical analysis.",
+            "• Prepared reports, scripts and documented findings to support engineering testing and analysis."
         ],
-        tags: ["CFD Analysis", "Technical Documentation", "Numerical Analysis", "Engineering Research"],
+        tags: [
+            "CFD Analysis", 
+            "Technical Documentation", 
+            "Numerical Analysis", 
+            "Engineering Research"
+        ],
         icon: "flask",
     },
     {
-        title: "Rotor Team - Annecy Meythet Airport",
-        subtitle: "Airworthiness Intern",
+        title: "Rotor Team",
+        subtitle: "Internship in the airworthiness department",
         duration: "June 2022 - July 2022",
+        localization: "Annecy Meythet Airport, France",
+        picture: "images/rotor-team_logo.png",
         details: [
-            "Evaluated maintenance program effectiveness for 19 helicopters, preparing detailed reports for customer feedback.",
-            "Maintained records of helicopter maintenance and physical surveys.",
-            "Drafted technical documentation in compliance with CS-STAN standards."
+            "• Evaluated maintenance program effectiveness for 19 helicopters and prepared detailed reports.",
+            "• Maintained records of helicopter maintenance and physical surveys.",
+            "• Drafted technical documentation in compliance with CS-STAN standards."
         ],
-        tags: ["Airworthiness", "Technical Documentation", "Maintenance Evaluation", "Helicopter Surveys"],
+        tags: [
+            "Airworthiness", 
+            "Technical Documentation", 
+            "Maintenance Evaluation", 
+            "Helicopter Surveys"
+        ],
         icon: "clipboard",
     }
 ];
@@ -141,11 +172,12 @@ export const education = [
     {
         title: "Polytech Engineering School - University of Orléans, France",
         duration: "2021 - 2024",
-        subtitle: "Engineering Degree in Aerospace and Energy Technologies",
+        subtitle: "Engineering Degree - TEAM “Technologies for Energy, Aerospace and Motorization” Departement",
         details: [
-            "Focused on fluid dynamics, structural mechanics, aerodynamics, and project management.",
-            "Led a mini-rocket prototyping project and completed CFD projects on airflow over aircraft wings.",
-            "Collaborated on a project with MBDA to improve high-speed aircraft aerodynamics through fluidic actuators."
+            "• Trained in fluid dynamics (boundary layer, turbulent, aerodynamics, gas dynamics,aeroelasticity, aeroacoustic), structure mechanics, combustion, heat transfer, acoustics and vibrations & project management.",
+            "• Project leader for creating a guide for building a mini-rocket and assembling a prototype.",
+            "• CFD project on the 3D visualization of airflow over aircraft wings",
+            "• CFD project in collaboration with MBDA focusing on the use of fluidic actuators for the aerodynamic improvement of high-speed aircraft wings in the transonic regime."
         ],
         tags: [
             "Aerospace Engineering",
@@ -158,12 +190,12 @@ export const education = [
         icon: "graduation-cap",
     },
     {
-        title: "Student Exchange Program",
+        title: "Student exchange program - Wichita State University, KS, USA",
         duration: "January - May 2023",
-        subtitle: "Wichita State University, Kansas, USA",
+        subtitle: "Aerospace Engineering Department",
         details: [
-            "Specialized in aerodynamics and propulsion in an aerospace engineering environment.",
-            "Participated in team-based aerodynamic analysis projects focusing on varying thickness-to-chord ratios and leading-edge shapes."
+            "• Trained in aerodynamics and propulsion and experimental methods in aerospace.",
+            "• Team project about aerodynamic analysis of flat plates with varying thickness-to-chord ratios and leading-edge shapes at low Reynolds numbers."
         ],
         tags: [
             "Aerodynamics",
@@ -172,13 +204,27 @@ export const education = [
             "Team Projects"
         ],
         icon: "plane-departure",
+    },
+    {
+        title: "Polytech Engineering School – University of Lyon 1, France",
+        duration: "2019 - 2021",
+        subtitle: "Polytech Network’s program (PEIP)",
+        details: [
+            "Mechanics option."
+        ],
+        tags: [
+            "Mechanical",
+            "Coding",
+            "Mathematics"
+        ],
+        icon: "",
     }
 ];
 
 export const testimonials = {
     reviewer: "Anonymous Colleagues",
     period: "Annual Performance Review",
-    company: "MI-GSO-PCUBED / Airbus",
+    company: "",
     feedback: [
       {
         title: "Structured and Clear Communication",
