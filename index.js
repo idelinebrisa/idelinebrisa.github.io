@@ -149,7 +149,7 @@ function createCertificationItem(certification) {
 
 function createExperienceItem(experience) {
     if (enableLogging) console.log('Creating experience item:', experience);
-    const { title, subtitle, duration, details, tags, icon } = experience;
+    const { title, subtitle, duration, details, tags, icon, location, employment_period } = experience;
 
     const experienceEntry = document.createElement('article');
     experienceEntry.className = 'timeline-entry animate-box fadeInUp animated';
@@ -166,15 +166,40 @@ function createExperienceItem(experience) {
     const timelineLabel = document.createElement('div');
     timelineLabel.className = 'timeline-label';
 
+    // Title and subtitle
     const titleHTML = document.createElement('h2');
     titleHTML.innerHTML = `${title} <span class="timeline-sublabel">${subtitle}</span>`;
     timelineLabel.appendChild(titleHTML);
 
+    // Employment period and location
+    if (employment_period || location) {
+        const employmentInfo = document.createElement('div');
+        employmentInfo.className = 'employment-info';
+
+        if (employment_period) {
+            const periodSpan = document.createElement('span');
+            periodSpan.className = 'employment-period';
+            periodSpan.textContent = employment_period;
+            employmentInfo.appendChild(periodSpan);
+        }
+
+        if (location) {
+            const locationSpan = document.createElement('span');
+            locationSpan.className = 'employment-location';
+            locationSpan.textContent = location;
+            employmentInfo.appendChild(locationSpan);
+        }
+
+        timelineLabel.appendChild(employmentInfo);
+    }
+
+    // Duration
     const durationSpan = document.createElement('span');
     durationSpan.className = 'duration';
     durationSpan.textContent = duration;
     timelineLabel.appendChild(durationSpan);
 
+    // Details
     details.forEach(detail => {
         const detailParagraph = document.createElement('p');
         detailParagraph.className = 'timeline-text';
@@ -182,7 +207,9 @@ function createExperienceItem(experience) {
         timelineLabel.appendChild(detailParagraph);
     });
 
+    // Tags
     const tagsDiv = document.createElement('div');
+    tagsDiv.className = 'tags';
     tags.forEach(tag => {
         const tagSpan = document.createElement('span');
         tagSpan.className = 'badge badge-secondary';
@@ -191,12 +218,14 @@ function createExperienceItem(experience) {
     });
     timelineLabel.appendChild(tagsDiv);
 
+    // Append elements to main timeline structure
     timelineInner.appendChild(timelineIcon);
     timelineInner.appendChild(timelineLabel);
     experienceEntry.appendChild(timelineInner);
 
     return experienceEntry;
 }
+
 
 function createEducationItem(education) {
     if (enableLogging) console.log('Creating education item:', education);
