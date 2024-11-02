@@ -149,7 +149,7 @@ function createCertificationItem(certification) {
 
 function createExperienceItem(experience) {
     if (enableLogging) console.log('Creating experience item:', experience);
-    const { title, subtitle, duration, details, tags, icon, location, employment_period } = experience;
+    const { title, subtitle, duration, details, tags, icon, location, employment_period, pictures } = experience;
 
     const experienceEntry = document.createElement('article');
     experienceEntry.className = 'timeline-entry animate-box fadeInUp animated';
@@ -199,6 +199,21 @@ function createExperienceItem(experience) {
     durationSpan.textContent = duration;
     timelineLabel.appendChild(durationSpan);
 
+    // Display pictures
+    if (pictures && pictures.length > 0) {
+        const picturesDiv = document.createElement('div');
+        picturesDiv.className = 'experience-pictures';
+        pictures.forEach(picture => {
+            const img = document.createElement('img');
+            img.className = 'experience-picture';
+            img.setAttribute('src', picture);
+            img.setAttribute('alt', `${title} image`);
+            img.setAttribute('loading', 'lazy');
+            picturesDiv.appendChild(img);
+        });
+        timelineLabel.appendChild(picturesDiv);
+    }
+
     // Details
     details.forEach(detail => {
         const detailParagraph = document.createElement('p');
@@ -225,6 +240,7 @@ function createExperienceItem(experience) {
 
     return experienceEntry;
 }
+
 
 
 function createEducationItem(education) {
