@@ -114,8 +114,9 @@ export const experience = [
         localization: "Toulouse, France", 
         pictures: ["images/mi-gso_logo.png", "images/airbus_logo.png"],
         details: [
-            "• Deployment of governance frameworks with stakeholders to reduce qualification times for aircraft components.",
+            "• Deployment of governance frameworks to reduce qualification times for aircraft components.",
             "• Developed tools to facilitate the follow-up of qualification projects and a way of working to enhance cross-functional collaboration.",
+            "• Stakeholders management and change management.",
             "• Conducted risk analysis, scheduling, and reporting to streamline project processes."
         ],
         tags: [
@@ -134,9 +135,9 @@ export const experience = [
         pictures: ["images/niar_logo.png"],
         details: [
             "Conducted 3D studies on infinite airfoil and drone designs:",
-            "• Worked on technical documentation.",
-            "• Created Computational Fluid Dynamics (CFD) grids and contributed to numerical analysis.",
-            "• Prepared reports, scripts and documented findings to support engineering testing and analysis."
+            "• Created CFD (Computational Fluid Dynamics) grids, scripts, and numerical simulations.",
+            "• Numerical analysis and comparison of parameters (meshes, turbulence models...).",
+            "• Prepared reports, and documented findings to support engineering testing and analysis."
         ],
         tags: [
             "CFD Analysis", 
