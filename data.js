@@ -112,8 +112,7 @@ export const experience = [
         subtitle: "Internship as a Project Management Officer (PMO) Assistant",
         duration: "March 2024 - Present",
         localization: "Toulouse, France", 
-        picture1: "images/mi-gso_logo.png",
-        picture2: "images/airbus_logo.png",
+        pictures: ["images/mi-gso_logo.png", "images/airbus_logo.png"],
         details: [
             "• Deployment of governance frameworks with stakeholders to reduce qualification times for aircraft components.",
             "• Developed tools to facilitate the follow-up of qualification projects and a way of working to enhance cross-functional collaboration.",
@@ -132,7 +131,7 @@ export const experience = [
         subtitle: "Academic Training as an engineer assistant within the CFD Advanced Virtual Engineering & Testing (AVET) group",
         duration: "May 2023 - August 2023",
         localization: "Wichita, KS, USA", 
-        picture: "images/niar_logo.png",
+        pictures: ["images/niar_logo.png"],
         details: [
             "Conducted 3D studies on infinite airfoil and drone designs:",
             "• Worked on technical documentation.",
@@ -152,7 +151,7 @@ export const experience = [
         subtitle: "Internship in the airworthiness department",
         duration: "June 2022 - July 2022",
         localization: "Annecy Meythet Airport, France",
-        picture: "images/rotor-team_logo.png",
+        pictures: ["images/rotor-team_logo.png"],
         details: [
             "• Evaluated maintenance program effectiveness for 19 helicopters and prepared detailed reports.",
             "• Maintained records of helicopter maintenance and physical surveys.",
