@@ -117,7 +117,7 @@ export const experience = [
             { src: "images/airbus_logo.png", size: "100px" }
         ],
         details: [
-            "Deployment of governance frameworks to reduce qualification times for aircraft components.",
+            "Deployment of governance frameworks to reduce qualification times for aircraft components:",
             "• Developed tools to facilitate the follow-up of qualification projects and a way of working to enhance cross-functional collaboration.",
             "• Stakeholders management and change management.",
             "• Conducted risk analysis, scheduling, and reporting to streamline project processes."
