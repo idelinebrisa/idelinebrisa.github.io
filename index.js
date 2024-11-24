@@ -209,8 +209,8 @@ function createExperienceItem(experience) {
             img.setAttribute('src', picture.src);
             img.setAttribute('alt', `${title} image`);
             img.setAttribute('loading', 'lazy');
-            img.style.width = picture.size;
-            img.style.height = picture.size;
+            img.style.width = '100px';
+            img.style.height = 'auto';
             picturesDiv.appendChild(img);
         });
         timelineLabel.appendChild(picturesDiv);
