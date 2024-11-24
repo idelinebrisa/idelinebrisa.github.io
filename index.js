@@ -206,9 +206,11 @@ function createExperienceItem(experience) {
         pictures.forEach(picture => {
             const img = document.createElement('img');
             img.className = 'experience-picture';
-            img.setAttribute('src', picture);
+            img.setAttribute('src', picture.src);
             img.setAttribute('alt', `${title} image`);
             img.setAttribute('loading', 'lazy');
+            img.style.width = picture.size;
+            img.style.height = picture.size;
             picturesDiv.appendChild(img);
         });
         timelineLabel.appendChild(picturesDiv);

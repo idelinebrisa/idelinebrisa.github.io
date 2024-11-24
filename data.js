@@ -112,9 +112,12 @@ export const experience = [
         subtitle: "Internship as a Project Management Officer (PMO) Assistant",
         duration: "March 2024 - Present",
         localization: "Toulouse, France", 
-        pictures: ["images/mi-gso_logo.png", "images/airbus_logo.png"],
+        pictures: [
+            { src: "images/mi-gso_logo.png", size: "50px" },
+            { src: "images/airbus_logo.png", size: "50px" }
+        ],
         details: [
-            "• Deployment of governance frameworks to reduce qualification times for aircraft components.",
+            "Deployment of governance frameworks to reduce qualification times for aircraft components.",
             "• Developed tools to facilitate the follow-up of qualification projects and a way of working to enhance cross-functional collaboration.",
             "• Stakeholders management and change management.",
             "• Conducted risk analysis, scheduling, and reporting to streamline project processes."
@@ -132,7 +135,7 @@ export const experience = [
         subtitle: "Academic Training as an engineer assistant within the CFD Advanced Virtual Engineering & Testing (AVET) group",
         duration: "May 2023 - August 2023",
         localization: "Wichita, KS, USA", 
-        pictures: ["images/niar_logo.png"],
+        pictures: [{ src: "images/niar_logo.png", size: "50px" }],
         details: [
             "Conducted 3D studies on infinite airfoil and drone designs:",
             "• Created CFD (Computational Fluid Dynamics) grids, scripts, and numerical simulations.",
@@ -152,7 +155,7 @@ export const experience = [
         subtitle: "Internship in the airworthiness department",
         duration: "June 2022 - July 2022",
         localization: "Annecy Meythet Airport, France",
-        pictures: ["images/rotor-team_logo.png"],
+        pictures: [{ src: "images/airbus_logo.png", size: "50px" }],
         details: [
             "• Evaluated maintenance program effectiveness for 19 helicopters and prepared detailed reports.",
             "• Maintained records of helicopter maintenance and physical surveys.",
