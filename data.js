@@ -155,7 +155,7 @@ export const experience = [
         subtitle: "Internship in the airworthiness department",
         duration: "June 2022 - July 2022",
         localization: "Annecy Meythet Airport, France",
-        pictures: [{ src: "images/airbus_logo.png", size: "80px" }],
+        pictures: [{ src: "images/rotor-team_logo.png", size: "80px" }],
         details: [
             "• Evaluated maintenance program effectiveness for 19 helicopters and prepared detailed reports.",
             "• Maintained records of helicopter maintenance and physical surveys.",
