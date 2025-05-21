@@ -309,19 +309,19 @@ export const education = [
             "Project Leadership",
             "Fluid Dynamics",
             "Structural Mechanics",
-            "CFD Analysis",
-            "Collaboration with Industry"
-        ],
+            "CFD Analysis"
+           ],
         icon: "graduation-cap",
     },
     {
         title: "Student exchange program - Wichita State University, KS, USA",
-        duration: "January - May 2023",
+        duration: "January 2023 - May 2023",
         subtitle: "Aerospace Engineering Department",
         details: [
-            "• Trained in aerodynamics and propulsion and experimental methods in aerospace.",
-            "• Team project about aerodynamic analysis of flat plates with varying thickness-to-chord ratios and leading-edge shapes at low Reynolds numbers."
-        ],
+            "• Focus: aerodynamics, aerospace propulsion, and experimental methods",
+            "• Additional training: engineering ethics & design thinking and innovation",
+            "• Team project: analyzed the aerodynamic performance of flat plates with varying thickness-to-chord ratios and leading-edge shapes under low Reynolds number conditions using a water tunnel"
+             ],
         tags: [
             "Aerodynamics",
             "Propulsion Systems",
