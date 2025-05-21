@@ -15,8 +15,8 @@ export const metaAuthor = "Ideline Brisa";
 export const contactInfo = `Send me an email at ${mail}, or find me on LinkedIn. Let’s connect to discuss aerospace innovations or project management!`;
 
 export const bio = [
-    "Meet Ideline Brisa: Aerospace Engineer, PMO Assistant, and Enthusiast for Innovation in Aerospace Technologies.",
-    `As a recent graduate in Aerospace Engineering from Polytech Orléans and as a PMO Assistant at Airbus, I bring a strong foundation in aerospace engineering and hands-on experience in project management.`,
+    "Meet Ideline Brisa: Aerospace Engineer, Project coordinator, and Enthusiast for Innovation in Aerospace Technologies.",
+    `As a Project coordinato or PMO (Project Management Officer) at Airbus, I bring a strong foundation in aerospace engineering and hands-on experience in project management.`,
     `I am skilled in fluid dynamics, structure mechanics, aerodynamics, and project management, having led projects that range from mini-rocket prototyping to CFD visualization and analysis.`,
     `My passion for aerospace is driven by a commitment to continuous learning and a desire to contribute to advancements in the field.`,
     "Thank you for exploring my academic and professional journey in the dynamic world of aerospace engineering!",
@@ -38,9 +38,9 @@ export const languages = [
 ];
 
 export const skills = {
-    "Aerospace Simulation and Analysis Tools": [
+    "Aerospace Simulation and Analysis Tools (Technical Skills)": [
         {
-            skillName: "Ansys Workbench, Fluent, Mechanics",
+            skillName: "Ansys Workbench, Fluent, Mechanics, CFD Post",
             imagePath: "images/skills/ansys_logo.png",
             description: "Experienced in Ansys Workbench, Fluent, and Mechanical for advanced Computational Fluid Dynamics (CFD) simulations, including fluid flow, heat transfer, and turbulence modeling. Proficient in applying mechanical analysis techniques for structural integrity assessment, optimization, and performance evaluation of aerospace and mechanical components."
         },
@@ -70,7 +70,7 @@ export const skills = {
             description: "Experienced in C / C++ for developing high-performance software, object-oriented programming, and system-level applications, particularly for simulations and aerospace systems."
         }
     ],
-    "Project Management Tools": [
+    "Project Management Tools (Technical Skills)": [
         {
             skillName: "Planisware",
             imagePath: "images/skills/planisware_logo.png",
@@ -82,16 +82,81 @@ export const skills = {
             description: "Experienced in AD Software for developing project plans, allocating resources, and tracking progress throughout project lifecycles."
         },
     ],
-    "General Productivity Software": [
+    "General Productivity Software (Technical Skills)": [
         {
             skillName: "Microsoft Office",
             imagePath: "images/skills/office_logo.png",
-            description: "Proficient in Excel, Word, and PowerPoint for document creation, data analysis, and presentations."
+            description: "Proficient in Excel, Word, PowerPoint, and Power BI for document creation, data analysis, and presentations."
         },
         {
             skillName: "Google Workspace",
             imagePath: "images/skills/google_logo.png",
             description: "Skilled in Docs, Sheets, Slides, LookerStudio, etc. for collaborative document creation, data analysis, and presentations."
+        },
+        {
+            skillName: "LaTeX",
+            imagePath: "images/skills/latex_logo.png",
+            description: "Experienced in LaTeX."
+        }
+    ],
+    "Core Skills": [
+        {
+            skillName: "Project planning & scheduling",
+            description: "Experienced in planning and scheduling projects through Gantt charts, work breakdown structures (WBS), and critical path analysis."
+        },
+        {
+            skillName: "KPI monitoring & reporting",
+            description: "Track key performance indicators and generate actionable insights through regular reporting and dashboard updates."
+        },
+        {
+            skillName: "Cross-functional team coordination & alignment",
+            description: "Ensure smooth collaboration across diverse teams by aligning goals, timelines, and priorities."
+        },
+        {
+            skillName: "Change management & process optimization",
+            description: "Support organizational transitions and drive continuous improvement through structured change initiatives and workflow optimization."
+        },
+        {
+            skillName: "Scope definition",
+            description: "Define clear project scopes, deliverables, and success criteria in collaboration with stakeholders, while identifying potential scope ambiguities or conflicting interests that could impact delivery."
+        },
+        {
+            skillName: "Risk identification & mitigation",
+            description: "Proactively identify potential risks and opportunities, implementing mitigation or enhancement strategies to ensure project success."
+        },
+        {
+            skillName: "Agile & Waterfall approaches",
+            description: "Adapt project methodology to context, applying Agile for flexibility and Waterfall for structured execution."
+        },
+        {
+            skillName: "Stage-Gate",
+            description: "Manage project phases using the Stage-Gate (LBIP) model to ensure readiness before progressing to the next development stage."
+        }
+    ],
+    "Personal Skills": [
+        {
+            skillName: "Well-organized"
+        },
+        {
+            skillName: "Natural-born leader"
+        },
+        {
+            skillName: "Team player"
+        },
+        {
+            skillName: "Creative problem-solver"
+        },
+        {
+            skillName: "Effective communicator"
+        },
+        {
+            skillName: "Proactive"
+        },
+        {
+            skillName: "Curious learner"
+        },
+        {
+            skillName: "Adaptable and resilient under pressure"
         }
     ]
 };
@@ -108,7 +173,34 @@ export const certifications = {
 
 export const experience = [
     {
-        title: "Mi-GSO | PCUBED / Airbus",
+        title: "Mi-GSO | PCUBED @ Airbus",
+        subtitle: "Project Management Officer (PMO)",
+        duration: "October 2024 - Present",
+        localization: "Toulouse, France", 
+        pictures: [
+            { src: "images/mi-gso_logo.png", size: "100px" },
+            { src: "images/airbus_logo.png", size: "100px" }
+        ],
+        details: [
+            "Contributed proactively to change management initiatives by developing and deploying governance to reduce qualification time for aircraft components and processes:",
+            "• Implemented trackers, technical documents, and guidelines to facilitate the follow-up of qualification projects and guide decision-making",
+            "• Introduced a new way of working to enhance cross-functional collaboration",
+            "• Organized and led meetings with key stakeholders, ensuring alignment, and engagement (30 teams and 200+ people across France, Germany, Spain, England, India)",
+            "• Performed risk analysis, forecasting, and scheduling (using WBS, Agile methods)",
+            "• Reported progress through KPIs, continuously monitored project status, raised concerns and proposed solutions to keep the project on track",
+            "• Gathered stakeholders’ feedback and optimized tools and processes accordingly",
+            "• Facilitated communication and coordinated efforts across three project teams and managers"
+        ],
+        tags: [
+            "Project Management", 
+            "Aerospace Engineering", 
+            "Process Optimization", 
+            "Stakeholder Collaboration"
+        ],
+        icon: "briefcase",
+    },
+    {
+        title: "Mi-GSO | PCUBED @ Airbus",
         subtitle: "Internship as a Project Management Officer (PMO) Assistant",
         duration: "March 2024 - Present",
         localization: "Toulouse, France", 
