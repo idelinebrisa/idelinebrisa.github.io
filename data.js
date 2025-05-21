@@ -16,7 +16,7 @@ export const contactInfo = `Send me an email at ${mail}, or find me on LinkedIn.
 
 export const bio = [
     "Meet Ideline Brisa: Aerospace Engineer, Project coordinator, and Enthusiast for Innovation in Aerospace Technologies.",
-    `As a Project coordinato or PMO (Project Management Officer) at Airbus, I bring a strong foundation in aerospace engineering and hands-on experience in project management.`,
+    `As a Project coordinator (or PMO - Project Management Officer) at Airbus, I bring a strong foundation in aerospace engineering and hands-on experience in project management.`,
     `I am skilled in fluid dynamics, structure mechanics, aerodynamics, and project management, having led projects that range from mini-rocket prototyping to CFD visualization and analysis.`,
     `My passion for aerospace is driven by a commitment to continuous learning and a desire to contribute to advancements in the field.`,
     "Thank you for exploring my academic and professional journey in the dynamic world of aerospace engineering!",
