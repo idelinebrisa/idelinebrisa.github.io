@@ -173,8 +173,8 @@ export const certifications = {
 
 export const experience = [
     {
-        title: "Mi-GSO | PCUBED @ Airbus",
-        subtitle: "Project Management Officer (PMO)",
+        title: "Project Management Officer (PMO) / Project coordinator",
+        subtitle: "Mi-GSO | PCUBED @ Airbus",
         duration: "October 2024 - Present",
         localization: "Toulouse, France", 
         pictures: [
@@ -200,19 +200,16 @@ export const experience = [
         icon: "briefcase",
     },
     {
-        title: "Mi-GSO | PCUBED @ Airbus",
-        subtitle: "Internship as a Project Management Officer (PMO) Assistant",
-        duration: "March 2024 - Present",
+        title: "Internship as a Project Management Officer (PMO) Assistant",
+        subtitle: "Mi-GSO | PCUBED @ Airbus",
+        duration: "March 2024 - September 2024 ",
         localization: "Toulouse, France", 
         pictures: [
             { src: "images/mi-gso_logo.png", size: "100px" },
             { src: "images/airbus_logo.png", size: "100px" }
         ],
         details: [
-            "Deployment of governance frameworks to reduce qualification times for aircraft components:",
-            "• Developed tools to facilitate the follow-up of qualification projects and a way of working to enhance cross-functional collaboration.",
-            "• Stakeholders management and change management.",
-            "• Conducted risk analysis, scheduling, and reporting to streamline project processes."
+            "Internship preceding full-time hire. Core responsibilities aligned with current mission."
         ],
         tags: [
             "Project Management", 
@@ -223,16 +220,48 @@ export const experience = [
         icon: "briefcase",
     },
     {
-        title: "National Institute for Aviation Research (NIAR)",
-        subtitle: "Academic Training as an engineer assistant within the CFD Advanced Virtual Engineering & Testing (AVET) group",
+        title: "5th-year engineering project in collaboration with MBDA as a Engineer Assistant",
+        subtitle: "Polytech Orléans x MBDA",
+        duration: "September 2023 - March 2024 ",
+        localization: "Orléans, France", 
+        pictures: [
+            { src: "images/MBDA_logo.png", size: "100px" },
+            { src: "images/polytech_logo.png", size: "100px" }
+        ],
+        details: [
+            "Conducted a 2D Computational Fluid Dynamics (CFD) study on the aerodynamic enhancement of high-speed aircraft wings using fluidic actuators in the transonic regime:",
+            "• Established a testing methodology based on literature reviews",
+            "• Built project schedules, evaluated risks, and estimated costs",
+            "• Coordinated communication with stakeholders to maintain alignment with the project vision and delivery milestones",
+            "• Designed geometries and generated CFD meshes",
+            "• Executed multiple simulations (designs, actuator positions, turbulence models, angle of attack, speed, etc.)",
+            "• Interpreted flow behavior and assessed the impact on aerodynamics parameters",
+            "• Documented findings, delivered presentations and recommended future testing parameters",
+        ],
+        tags: [
+            "CFD Analysis", 
+            "Technical Documentation", 
+            "Numerical Analysis", 
+            "Engineering Research",
+            "Project Management"
+        ],
+        icon: "briefcase",
+    },
+    {
+        title: "Academic Training as an Engineer Assistant within the CFD Advanced Virtual Engineering & Testing (AVET) group",
+        subtitle: "National Institute for Aviation Research (NIAR)",
         duration: "May 2023 - August 2023",
         localization: "Wichita, KS, USA", 
         pictures: [{ src: "images/niar_logo.png", size: "100px" }],
         details: [
-            "Conducted 3D studies on infinite airfoil and drone designs:",
-            "• Created CFD (Computational Fluid Dynamics) grids, scripts, and numerical simulations.",
-            "• Numerical analysis and comparison of parameters (meshes, turbulence models...).",
-            "• Prepared reports, and documented findings to support engineering testing and analysis."
+            "Performed 3D CFD analysis of both an infinite airfoil and a drone, evaluating how key parameters influence aerodynamic performance:",
+            "• Defined an action plan, outlined and adapted testing scenarios, and flagged technical concerns",
+            "• Created geometries & CFD grids",
+            "• Conducted numerical simulations by varying parameters (turbulence models, mesh refinement, angle of attack, etc.)",
+            "• Built scripts to automate simulations and streamline data collection",
+            "• Analyzed results and compared the impact of parameters on aerodynamic coefficients, stability & flow behavior against experimental data",
+            "• Prepared technical documentation",
+            "• Presented results to the team and proposed future testing parameters"
         ],
         tags: [
             "CFD Analysis", 
@@ -243,15 +272,17 @@ export const experience = [
         icon: "flask",
     },
     {
-        title: "Rotor Team",
-        subtitle: "Internship in the airworthiness department",
+        title: "Internship as an Engineer Assistant in the airworthiness department",
+        subtitle: "Rotor Team",
         duration: "June 2022 - July 2022",
         localization: "Annecy Meythet Airport, France",
         pictures: [{ src: "images/rotor-team_logo.png", size: "100px" }],
         details: [
-            "• Evaluated maintenance program effectiveness for 19 helicopters and prepared detailed reports.",
-            "• Maintained records of helicopter maintenance and physical surveys.",
-            "• Drafted technical documentation in compliance with CS-STAN standards."
+            "• Assessed the effectiveness of maintenance programs across a fleet of 19 customer helicopters and produced a report",
+            "• Performed airworthiness reviews through in-depth record analysis and on-site physical inspections",
+            "• Drafted technical documentation",
+            "• Initiated best practices for document management (proper completion, organized storage) to improve interdepartmental communication and prevent workflow delays",
+            "• Ensured the accuracy and integrity of helicopter records across multiple databases"
         ],
         tags: [
             "Airworthiness", 
@@ -269,10 +300,9 @@ export const education = [
         duration: "2021 - 2024",
         subtitle: "Engineering Degree - TEAM “Technologies for Energy, Aerospace and Motorization” Departement",
         details: [
-            "• Trained in fluid dynamics (boundary layer, turbulent, aerodynamics, gas dynamics,aeroelasticity, aeroacoustic), structure mechanics, combustion, heat transfer, acoustics and vibrations & project management.",
-            "• Project leader for creating a guide for building a mini-rocket and assembling a prototype.",
-            "• CFD project on the 3D visualization of airflow over aircraft wings",
-            "• CFD project in collaboration with MBDA focusing on the use of fluidic actuators for the aerodynamic improvement of high-speed aircraft wings in the transonic regime."
+            "• Trained in fluid dynamics (boundary layer, turbulent, gas dynamics),aerodynamics, aeroelasticity, aeroacoustic, structure mechanics, combustion, heat transfer, acoustics, vibrations & project management",
+            "• Project leader: led the creation of a mini-rocket guide and prototype assembly. Developed the project plan, structured team workflow and assigned tasks. Managed timelines, budget, and risks. Participated in design activities.",
+            "• Team project: conducted 3D CFD simulations and wind tunnel testing to analyze airflow over aircraft wings. Also, coordinated tasks, ensured timely delivery, and presented findings"
         ],
         tags: [
             "Aerospace Engineering",
