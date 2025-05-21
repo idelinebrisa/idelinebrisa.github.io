@@ -417,7 +417,7 @@ export const footer = [
             },
             {
                 text: "Download Resume",
-                link: "https://idelinebrisa.github.io/assets/CV_2410_English_Management_grad.pdf",
+                link: "https://idelinebrisa.github.io/assets/",
                 target: "_blank"
             }
         ],
